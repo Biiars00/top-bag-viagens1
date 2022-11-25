@@ -1,0 +1,85 @@
+#grupo-paineis {
+margin-top: 20px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+header {
+	background-image: url(img/castelo.jpg);
+	background-size: cover;
+	background-position: top-center;
+	height: 100%;
+	position: relative;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.topBagViagens-banner {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-depoimentos {
+	background-color: rgb(4, 2, 7);
+	color: white;
+	text-align: center;
+	padding: 20px; 0;
+	margin-bottom: 0;
+}
+
+#sobre-nos {
+	margin-top: 20px;
+}
+
+#video-institucional {
+	margin-top: 20px;
+}
+
+#contato-contato {
+	margin-top: 20px;
+}
+
+.contato-select, 
+.grupo-radio {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form-select {
+    width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+margin-top: 0;
+}
+
+.btn btn-primary {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child {
+	margin-bottom: 0;
+}
